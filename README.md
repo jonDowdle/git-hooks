@@ -14,3 +14,9 @@ Either create a link or copy the contents of the file into one of the hook names
 * pre-rebase
 * prepare-commit-msg
 * update
+
+
+### Example
+
+
+`ln -s .git/hooks/pre-commit/reject-merge-markers.sh .git/hooks/pre-commit`
